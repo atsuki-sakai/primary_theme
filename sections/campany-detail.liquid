@@ -1,0 +1,206 @@
+{% style %}
+  .title {
+    font-weight: bold;
+  }
+  .campany-detail-container {
+    width: 100%;
+    max-width: {{ settings.page_width }}px;
+    margin: auto;
+    padding: 1rem 2rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+  .campany-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    border-bottom: solid gray 1px;
+  }
+  .campany-item-left {
+    width: 40%;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  .campany-item-right {
+    width: 60%;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .campany-detail-container__heading-container-desc {
+      line-height: normal;
+      color: dimgray;
+  }
+  .campany-detail-container__heading-container{
+     margin-bottom: 5rem;
+      color: black;
+  }
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 1000px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+      @media screen and (min-width: 990px) {
+      .page-width--narrow {
+          max-width: 72.6rem;
+          padding: 0;
+        margin: auto;
+      }
+  }
+{% endstyle %}
+
+<div class="{{ section.settings.color_scheme }} gradient">
+  <div class="page_width page-width--narrow section-{{ section.id }}-padding">
+    <div class="campany-detail-container">
+      {%- if section.settings.heading != blank -%}
+        <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          {{ section.settings.heading }}
+        </h2>
+      {%- else -%}
+        <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+      {%- endif -%}
+      <div class="campany-detail-container__heading-container scroll-trigger animate--slide-in">
+        <p>
+          {{ section.settings['form-head'] }}
+        </p>
+        <div class="campany-detail-container__heading-container-desc scroll-trigger animate--slide-in">
+          {{ section.settings['form-desc'] }}
+        </div>
+      </div>
+      {% for block in section.blocks %}
+        <div class="campany-item scroll-trigger animate--slide-in">
+          <div class="campany-item-left">{{ block.settings.section_title | escape }}</div>
+          <div class="campany-item-right">{{ block.settings.section_value | escape }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "会社概要",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+   {
+    "type": "inline_richtext",
+    "id": "heading",
+    "default": "会社概要",
+    "label": "Heading"
+  },
+   {
+    "type": "inline_richtext",
+    "id": "form-head",
+    "label": "フォーム　ヘッド",
+    "default": "以下のお問い合わせフォームからお問い合わせ内容をお問い合わせください。"
+  },
+  {
+    "type": "inline_richtext",
+    "id": "form-desc",
+    "label": "フォーム　説明文",
+    "default": "お問い合わせから、1~2営業日以内にご返信させて頂きます。"
+  },
+  {
+    "type": "text",
+    "id": "required-text",
+    "default": "必須",
+    "label": "必須テキスト"
+  },
+  {
+    "type": "select",
+    "id": "heading_size",
+    "options": [
+      {
+        "value": "h2",
+        "label": "t:sections.all.heading_size.options__1.label"
+      },
+      {
+        "value": "h1",
+        "label": "t:sections.all.heading_size.options__2.label"
+      },
+      {
+        "value": "h0",
+        "label": "t:sections.all.heading_size.options__3.label"
+      }
+    ],
+    "default": "h1",
+    "label": "t:sections.all.heading_size.label"
+  },
+  {
+    "type": "range",
+    "id": "radius",
+    "min": 0,
+    "max": 120,
+    "step": 4,
+    "default": 4,
+    "label": "角の丸め"
+  },
+  {
+    "type": "color_scheme",
+    "id": "color_scheme",
+    "label": "t:sections.all.colors.label",
+    "default": "scheme-1"
+  },
+  {
+    "type": "header",
+    "content": "t:sections.all.padding.section_padding_heading"
+  },
+  {
+    "type": "range",
+    "id": "padding_top",
+    "min": 0,
+    "max": 100,
+    "step": 4,
+    "unit": "px",
+    "label": "t:sections.all.padding.padding_top",
+    "default": 36
+  },
+  {
+    "type": "range",
+    "id": "padding_bottom",
+    "min": 0,
+    "max": 100,
+    "step": 4,
+    "unit": "px",
+    "label": "t:sections.all.padding.padding_bottom",
+    "default": 36
+  }
+],
+  "blocks": [
+    {
+      "type": "section",
+      "name": "行",
+      "limit": 7,
+      "settings": [
+        {
+          "type": "text",
+          "id": "section_title",
+          "default": "会社名",
+          "label": "項目"
+        },
+        {
+          "type": "text",
+          "id": "section_value",
+          "default": "山田産業",
+          "label": "値"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "会社概要"
+    }
+  ]
+}
+{% endschema %}

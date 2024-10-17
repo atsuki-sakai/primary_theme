@@ -1,0 +1,147 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_qQCgtj": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_RNxAf4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>お問い合わせ<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_XN3Rwt": {
+          "type": "text",
+          "settings": {
+            "text": "contact",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RNxAf4",
+        "text_XN3Rwt"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/29040090_m_4fa4da21-8cda-40d5-bc92-2714a4fe3765.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text_ha3bC7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6nhzL4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>フリーダイヤルはこちら<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "heading_REU8px": {
+          "type": "heading",
+          "settings": {
+            "heading": "<a href=\"tel:0120075074\"><strong>0120-075-074<\/strong><\/a>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6nhzL4",
+        "heading_REU8px"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "original_form_qVtaqg": {
+      "type": "original-form",
+      "blocks": {
+        "original_form_e8Rmn3": {
+          "type": "original-form",
+          "settings": {
+            "title": "お名前",
+            "placeholder": "山田太郎",
+            "form-type": "text",
+            "select-options": "有り-無し",
+            "required": true
+          }
+        },
+        "original_form_YyAQNm": {
+          "type": "original-form",
+          "settings": {
+            "title": "メールアドレス",
+            "placeholder": "sample@email.com",
+            "form-type": "email",
+            "select-options": "有り-無し",
+            "required": true
+          }
+        },
+        "original_form_8ATiix": {
+          "type": "original-form",
+          "settings": {
+            "title": "お問い合わせ内容",
+            "placeholder": "sample@email.com",
+            "form-type": "select",
+            "select-options": "商品について-定期購入の解約-その他",
+            "required": true
+          }
+        },
+        "original_form_g7qafp": {
+          "type": "original-form",
+          "settings": {
+            "title": "本文",
+            "placeholder": "例: 〇〇の入荷時期は分かりますか？",
+            "form-type": "textarea",
+            "select-options": "有り-無し",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "original_form_e8Rmn3",
+        "original_form_YyAQNm",
+        "original_form_8ATiix",
+        "original_form_g7qafp"
+      ],
+      "settings": {
+        "form-id": "新規お問い合わせ",
+        "heading": "",
+        "form-head": "以下のお問い合わせフォームからお問い合わせください。",
+        "form-desc": "お問い合わせから、1~2営業日以内にご返信させて頂きます。",
+        "required-text": "必須",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_qQCgtj",
+    "rich_text_ha3bC7",
+    "original_form_qVtaqg"
+  ]
+}

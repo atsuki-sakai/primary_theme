@@ -1,0 +1,216 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_DmwWD3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>体を守るのはあなた自身<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_yDMfaC": {
+          "type": "text",
+          "settings": {
+            "text": "健康食品を通して「人と健康を」テーマに、あらゆる面からトータルプロデュースします。",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DmwWD3",
+        "text_yDMfaC"
+      ],
+      "custom_css": [
+        "h2 {font-size: 4.5rem; font-weight: bold; -webkit-text-stroke: 2px white; text-shadow: 0px 0px 8px white;}",
+        "p {color: white; -webkit-text-stroke: 0.2px white; text-shadow: 0px 0px 8px black;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/30526400_m.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "right",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".card__heading {font-size: 1.8rem; font-weight: bold;}",
+        ".price {font-weight: bold; letter-spacing: 2px;}"
+      ],
+      "settings": {
+        "title": "製品紹介",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-5",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_cEBtDd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WGLRV6": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>サプリメント管理士とは？<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_YUJimX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>サプリメント管理士とは、サプリメントとは何かという基本からはじまり、サプリメントのアドバイザーとして不可欠な知識を習得したことを証明する資格です。健康とサプリメントタイプ別効果的利用法、美容とサプリメントとの関係などサプリメントに関する広範な知識を学習しています。サプリメント管理士は健康や美容に関すること、さらに介護福祉・薬店などで活躍し、その知識を活かしています。弊社オペレーターは、このサプリメント管理士の資格を有しています。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WGLRV6",
+        "text_YUJimX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_banner_JLPtfE": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fVqr6K": {
+          "type": "heading",
+          "settings": {
+            "heading": "ご相談・お問い合わせは「サプリメント管理士資格」を有したオペレーターがご対応いたします。",
+            "heading_size": "h2"
+          }
+        },
+        "text_xbdFwC": {
+          "type": "text",
+          "settings": {
+            "text": "みなさまの 健康生活のスタート時において、なにかひとつご助言、ご提案ができたらと考えます。なによりもまず、みなさまのお話を聞かせてください。",
+            "text_style": "body"
+          }
+        },
+        "buttons_pdBYdq": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "お問い合わせはこちら",
+            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fVqr6K",
+        "text_xbdFwC",
+        "buttons_pdBYdq"
+      ],
+      "custom_css": [
+        "h2 {text-shadow: none; webkit-text-stroke: none; font-size: 3rem;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/29040090_m.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-a50ffc48-89c2-470f-813e-27f077ac4d5e",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_NGkAAR": {
+      "type": "multirow",
+      "blocks": {
+        "row_N4aB8X": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/29564475_m.jpg",
+            "caption": "live in good health",
+            "heading": "<strong>100 年時代を生き抜く<\/strong>",
+            "text": "<p>人はどうして健康でいたいのでしょうか？<br\/>その答えは「人は健康で幸せな人生を送るためにこの世に生まれてきた」ということだと思います。<br\/>家族全員が健康であれば、そこには必ず温かい笑顔が生まれます。<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_AxCVPM": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/29051088_m.jpg",
+            "caption": "Your health is in your own control",
+            "heading": "<strong>健康は自分自身でコントロールする<\/strong>",
+            "text": "<p>自身の健康をきちんと管理して生活することは容易ではありません。時にはコントロールすることに疲れ、逆にストレスとなり健康を害することもあります。<\/p><p>毎日気軽に取り入れられるもの、それが弊社の健康食品です。<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_N4aB8X",
+        "row_AxCVPM"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "call_banner_qWRgjP": {
+      "type": "call-banner",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "rich_text_cEBtDd",
+    "image_banner_JLPtfE",
+    "multirow_NGkAAR",
+    "call_banner_qWRgjP"
+  ]
+}

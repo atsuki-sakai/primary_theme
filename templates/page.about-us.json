@@ -1,0 +1,142 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_ygxBfF": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_KgNrn3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>会社概要<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_AtJYrm": {
+          "type": "text",
+          "settings": {
+            "text": "about us",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KgNrn3",
+        "text_AtJYrm"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2733818_m.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "campany_detail_HD8fUm": {
+      "type": "campany-detail",
+      "blocks": {
+        "section_XPMqB3": {
+          "type": "section",
+          "settings": {
+            "section_title": "会社名",
+            "section_value": "株式会社プライマリ"
+          }
+        },
+        "section_eN3NJw": {
+          "type": "section",
+          "settings": {
+            "section_title": "代表者",
+            "section_value": "白坂　純子"
+          }
+        },
+        "section_rrRxxE": {
+          "type": "section",
+          "settings": {
+            "section_title": "所在地",
+            "section_value": "岐阜県岐阜市清752番地10"
+          }
+        },
+        "section_4grigg": {
+          "type": "section",
+          "settings": {
+            "section_title": "電話番号",
+            "section_value": "058-214-8357"
+          }
+        },
+        "section_KLpQKm": {
+          "type": "section",
+          "settings": {
+            "section_title": "メールアドレス",
+            "section_value": "info@primary-ltd.com"
+          }
+        }
+      },
+      "block_order": [
+        "section_XPMqB3",
+        "section_eN3NJw",
+        "section_rrRxxE",
+        "section_4grigg",
+        "section_KLpQKm"
+      ],
+      "settings": {
+        "heading": "",
+        "form-head": "",
+        "form-desc": "",
+        "required-text": "必須",
+        "heading_size": "h1",
+        "radius": 4,
+        "color_scheme": "",
+        "padding_top": 48,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_FVmTiU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pRbfGn": {
+          "type": "heading",
+          "settings": {
+            "heading": "あなたの体を守るのはあなた自身",
+            "heading_size": "h1"
+          }
+        },
+        "text_XQ6rpw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>健康的な生活習慣を維持し、定期的な運動とバランスの取れた食事を心掛け、適切な休息を取ることで、心身の健康を保ちましょう。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pRbfGn",
+        "text_XQ6rpw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-a50ffc48-89c2-470f-813e-27f077ac4d5e",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_ygxBfF",
+    "campany_detail_HD8fUm",
+    "rich_text_FVmTiU"
+  ]
+}
