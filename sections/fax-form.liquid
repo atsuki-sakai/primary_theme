@@ -1,0 +1,138 @@
+{%- style -%}
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+  {%- endstyle -%}
+  
+  {%- style -%}
+  
+    @media screen and (min-width: 750px) {}
+  
+  {%- endstyle -%}
+  
+  <div class="color-{{ section.settings.color_scheme }} isolate gradient">
+    <div class="section-{{ section.id }}-padding page-width">
+        <div class="tw-flex tw-flex-col md:tw-flex-row tw-justify-center tw-items-center tw-gap-4">
+            <div class="tw-flex tw-flex-col tw-gap-4 tw-w-full tw-mb-8">
+                <div class="tw-flex tw-items-center tw-justify-center tw-gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M19 11.95q0-2.925-2.037-4.962T12 4.95v-2q1.875 0 3.513.713t2.85 1.925t1.925 2.85T21 11.95zm-4 0q0-1.25-.875-2.125T12 8.95v-2q2.075 0 3.538 1.463T17 11.95zM19.95 21q-3.125 0-6.175-1.362t-5.55-3.863t-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.337t.712-.063l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3"/></svg>
+                    <h2 class="tw-text-3xl tw-font-bold md:tw-text-4xl">お電話でのご注文</h2>
+                </div>
+                <a href="tel:0120-075-0740" class="tw-text-6xl md:tw-text-7xl tw-font-bold tw-text-center">0120-075-0740</a>
+                <p class="tw-text-lg md:tw-text-xl tw-tracking-widest tw-text-center tw-font-bold tw-block tw-w-fit tw-mx-auto tw-px-6 tw-py-2 tw-rounded-full" style="color: #FF007F; background-color: #FFF0F5;">通話無料</p>
+                <span class="tw-text-lg md:tw-text-xl tw-text-gray-500 tw-text-center">午前9時～午後6時まで
+                    (月曜～土曜、祝日含む)</span>
+            </div>
+            <div class="tw-flex tw-flex-col tw-gap-4 tw-w-full">
+                <div class="tw-flex tw-items-center tw-gap-2 tw-justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21q-1.25 0-2.125-.875T2 18v-7q0-1.25.875-2.125T5 8q.675 0 1.238.275T7.225 9H8V4h10v5h1q1.25 0 2.125.875T22 12v8H7.225q-.425.45-.987.725T5 21m0-2q.425 0 .713-.288T6 18v-7q0-.425-.288-.712T5 10t-.712.288T4 11v7q0 .425.288.713T5 19m5-10h6V6h-6zm-2 9h12v-6q0-.425-.288-.712T19 11H8zm7-4q.425 0 .713-.288T16 13t-.288-.712T15 12t-.712.288T14 13t.288.713T15 14m3 0q.425 0 .713-.288T19 13t-.288-.712T18 12t-.712.288T17 13t.288.713T18 14m-3 3q.425 0 .713-.288T16 16t-.288-.712T15 15t-.712.288T14 16t.288.713T15 17m3 0q.425 0 .713-.288T19 16t-.288-.712T18 15t-.712.288T17 16t.288.713T18 17m-9 0h4v-5H9zm-1 1v-7z"/></svg>
+                    <h2 class="tw-text-3xl tw-font-bold md:tw-text-4xl">FAXでのご注文</h2>
+                </div>
+                <a href="fax:058-214-8986" class="tw-text-6xl md:tw-text-7xl tw-font-bold tw-text-center">058-214-8986</a>
+                <p class="tw-text-lg md:tw-text-xl tw-tracking-widest tw-text-center tw-font-bold tw-block tw-w-fit tw-px-6 tw-mx-auto tw-py-2 tw-rounded-full" style="color: #FF007F; background-color: #FFF0F5;">24時間・年中無休で受付</p>
+                <span class="tw-text-lg md:tw-text-xl tw-text-gray-500 tw-text-center">24時間・年中無休で受付</span>
+            </div>
+        </div>
+        <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-4 md:tw-gap-12 tw-justify-center tw-items-center tw-mt-12 tw-max-w-[900px] tw-mx-auto">
+            <div class="tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-2">
+                <p class="tw-text-2xl md:tw-text-3xl tw-font-bold">瑞生(みずき)定期便コース</p>
+                <a class="tw-flex tw-items-center tw-gap-4 tw-mt-2 tw-text-lg tw-font-bold tw-text-white tw-px-4 tw-py-2 tw-rounded-full tw-bg-blue-500" href="https://primary-ltd.co.jp/wp-content/uploads/2024/02/teiki.pdf" rel="noopener noreferrer" target="_blank" class="ark-block-button__link" data-has-icon="1">
+                <svg class="tw-w-10 tw-h-10" style="fill: #fff; stroke: #fff;" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-icon="LsFile" viewBox="0 0 48 48">
+                    <path d="m41.5 11.7-8.2-8.2c-.9-1-2.2-1.5-3.5-1.5H10C7.2 2 5 4.2 5 7v34c0 2.8 2.2 5 5 5h28c2.8 0 5-2.2 5-5V15.2c0-1.3-.5-2.5-1.5-3.5zM31 6.8l7.2 7.2H32c-.6 0-1-.4-1-1V6.8zM38 42H10c-.6 0-1-.4-1-1V7c0-.6.4-1 1-1h17v7c0 2.8 2.2 5 5 5h7v23c0 .6-.4 1-1 1z"></path>
+                </svg>
+                    <span class="tw-text-lg md:tw-text-xl tw-font-bold">
+                    ダウンロード
+                    </span>
+                </a>
+            </div>
+            <div class="tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-2 tw-mt-4 md:tw-mt-0">
+                <p class="tw-text-2xl md:tw-text-3xl tw-font-bold">瑞生(みずき)</p>
+                <a class="tw-flex tw-items-center tw-gap-4 tw-mt-2 tw-text-lg tw-font-bold tw-text-white tw-px-4 tw-py-2 tw-rounded-full tw-bg-blue-500" href="https://primary-ltd.co.jp/wp-content/uploads/2024/02/mizuki-fax.pdf" rel="noopener noreferrer" target="_blank" class="ark-block-button__link" data-has-icon="1">
+                    <svg class="tw-w-10 tw-h-10" style="fill: #fff; stroke: #fff;" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-icon="LsFile" viewBox="0 0 48 48"><path d="m41.5 11.7-8.2-8.2c-.9-1-2.2-1.5-3.5-1.5H10C7.2 2 5 4.2 5 7v34c0 2.8 2.2 5 5 5h28c2.8 0 5-2.2 5-5V15.2c0-1.3-.5-2.5-1.5-3.5zM31 6.8l7.2 7.2H32c-.6 0-1-.4-1-1V6.8zM38 42H10c-.6 0-1-.4-1-1V7c0-.6.4-1 1-1h17v7c0 2.8 2.2 5 5 5h7v23c0 .6-.4 1-1 1z"></path></svg>
+                    <span class="tw-text-lg md:tw-text-xl tw-font-bold">ダウンロード</span>
+                </a>
+            </div>
+        </div>
+        <div class="tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-12 tw-mt-[5rem] md:tw-mt-[8rem] tw-max-w-[900px] tw-mx-auto">
+            <div>
+                <h4 class="tw-text-4xl tw-font-bold tw-text-center tw-border-b-2 tw-border-yellow-300 tw-mb-4 tw-pb-4 tw-w-fit tw-mx-auto">商品のご注文について</h4>
+                <p class="tw-text-2xl tw-tracking-wide tw-leading-8 tw-text-gray-500 tw-text-center">
+                    プライマリでは、フリーダイヤル、FAXまたは、オンラインショップにてご注文を承ります。
+                    フリーダイヤル、FAXでのご注文の場合は、代金引換決済（手数料無料）あるいはお振込みでのお支払いが可能になります。
+                      また、オンラインショップでは、クレジットカード決済・Amazon Pay決済がご利用いただけます。
+    
+                    商品は、代金引換決済の場合は、ご購入手続き後、5日以内に発送いたします。（商品到着後に運送会社に代金をお支払いください。）
+                    お振込みの場合は、お振込み確認後、5日以内に、商品を発送いたします。
+                    クレジットカード決済・Amazon Pay決済の場合は、クレジットカード利用、Amazon Pay利用の承認が下りた後、5日以内に、商品を発送いたします。
+    
+                    送料、及び代金引換手数料（代金引換決済の場合）は、弊社で負担させていただきます。
+                    返品は商品到着後８日以内となっています。（開封後の返品は不可）
+                </p>
+            </div>
+            <div>
+                <h4 class="tw-text-4xl tw-font-bold tw-text-center tw-border-b-2 tw-border-yellow-300 tw-mb-4 tw-pb-4 tw-w-fit tw-mx-auto">個人情報の取り扱いについて</h4>
+                <p class="tw-text-2xl  tw-tracking-wide tw-leading-8 tw-text-gray-500 tw-text-center">
+                    お客様の個人情報は、商品発送のほか、当社ご案内以外の目的には利用いたしません。
+                </p>
+            </div>
+            <div>
+                <h4 class="tw-text-4xl tw-font-bold tw-text-center tw-border-b-2 tw-border-yellow-300 tw-mb-4 tw-pb-4 tw-w-fit tw-mx-auto">サプリメント管理士について</h4>
+                <p class="tw-text-2xl tw-tracking-wide tw-leading-8 tw-text-gray-500 tw-text-center">
+                    弊社オペレーターはサプリメント管理士資格を取得しています。
+                サプリメント管理士とは、「サプリメントとは何か？」という基本的なことにはじまり、栄養・健康・美容などについて、幅広い知識を習得したことを証明する資格です。
+                サプリメントに関する正しい広域な知識を学習しています。サプリメント管理士は健康・美容に関することや、さらに介護福祉・薬店などでその知識を活かしてしています。
+                </p>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+  
+  {% schema %}
+    {
+      "name": "Fax Form",
+      "tag": "section",
+      "settings": [
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "t:sections.all.colors.label",
+          "info": "t:sections.all.colors.has_cards_info",
+          "default": "scheme-1"
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "min": 0,
+          "max": 100,
+          "step": 4,
+          "unit": "px",
+          "label": "t:sections.all.padding.padding_top",
+          "default": 36
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 100,
+          "step": 4,
+          "unit": "px",
+          "label": "t:sections.all.padding.padding_bottom",
+          "default": 36
+        }
+      ],
+      "blocks": [],
+      "presets": [
+        {
+          "name": "Fax Form"
+        }
+      ]
+    }
+  {% endschema %}
