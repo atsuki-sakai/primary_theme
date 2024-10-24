@@ -217,6 +217,76 @@
                     {%- endif -%}
                   {%- endif -%}
                 </p>
+              {%- when 'shipping-info' -%}]
+                <style>
+
+    .shipping-info-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .shipping-info-container h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .shipping-info-container .shipping-method {
+      margin-bottom: 30px;
+    }
+
+    .shipping-info-container .shipping-method h2 {
+      color: #0073e6;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    .shipping-info-container .shipping-method p {
+      margin: 5px 0;
+      font-size: 1em;
+      color: #555;
+    }
+
+    .shipping-info-container .note {
+      background-color: #fffae6;
+      padding: 10px;
+      border-left: 5px solid #ffcc00;
+      margin-bottom: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+
+  <div class="shipping-info-container">
+    <h1>発送のご案内と到着日の目安</h1>
+    <p>いつもご利用いただきありがとうございます。当店では、ご注文いただいた商品の発送スケジュールと到着日の目安を、以下の通りご案内いたします。</p>
+
+    <div class="shipping-method">
+      <h2>1. 代引き（代金引換）</h2>
+      <p><strong>発送日：</strong>17:00までのご注文で当日発送いたします。</p>
+      <p><strong>到着目安：</strong>発送日の翌日から2～3日以内にお届けいたします。（地域により異なります）</p>
+    </div>
+
+    <div class="shipping-method">
+      <h2>2. 銀行振込</h2>
+      <p><strong>発送日：</strong>ご入金確認後の発送となります。</p>
+      <p><strong>到着目安：</strong>ご入金確認後、2～3日以内にお届けいたします。（地域により異なります）</p>
+    </div>
+
+    <div class="shipping-method">
+      <h2>3. クレジットカード</h2>
+      <p><strong>発送日：</strong>ご注文後、クレジットカードの承認確認が必要なため、3営業日以降の発送となります。</p>
+      <p><strong>到着目安：</strong>発送日から2～3日以内にお届けいたします。（地域により異なります）</p>
+    </div>
+
+    <div class="note">
+      <strong>配送会社について：</strong><br>
+      当店では、ヤマト運輸を使用して商品をお届けいたします。配送の詳細や追跡番号は、発送完了時にメールにてご案内いたします。
+                </div>
+              </div>
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
                   <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
@@ -818,6 +888,11 @@
           "label": "t:sections.main-product.blocks.text.settings.text_style.label"
         }
       ]
+    },
+    {
+      "type": "shipping-info",
+      "name": "Shipping Info",
+      "limit": 1
     },
     {
       "type": "title",
