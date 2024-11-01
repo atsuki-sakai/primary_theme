@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -6,7 +15,7 @@
         "heading_DmwWD3": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>体を守るのはあなた自身<\/strong>",
+            "heading": "<strong>体を守るのはあなた自身</strong>",
             "heading_size": "h1"
           }
         },
@@ -27,7 +36,7 @@
         "p {color: white; -webkit-text-stroke: 0.2px white; text-shadow: 0px 0px 8px black;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/30526400_m.jpg",
+        "image": "shopify://shop_images/30526400_m.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "bottom-right",
@@ -78,14 +87,14 @@
         "heading_WGLRV6": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>サプリメント管理士とは？<\/strong>",
+            "heading": "<strong>サプリメント管理士とは？</strong>",
             "heading_size": "h2"
           }
         },
         "text_YUJimX": {
           "type": "text",
           "settings": {
-            "text": "<p>サプリメント管理士とは、サプリメントとは何かという基本からはじまり、サプリメントのアドバイザーとして不可欠な知識を習得したことを証明する資格です。健康とサプリメントタイプ別効果的利用法、美容とサプリメントとの関係などサプリメントに関する広範な知識を学習しています。サプリメント管理士は健康や美容に関すること、さらに介護福祉・薬店などで活躍し、その知識を活かしています。弊社オペレーターは、このサプリメント管理士の資格を有しています。<\/p>"
+            "text": "<p>サプリメント管理士とは、サプリメントとは何かという基本からはじまり、サプリメントのアドバイザーとして不可欠な知識を習得したことを証明する資格です。健康とサプリメントタイプ別効果的利用法、美容とサプリメントとの関係などサプリメントに関する広範な知識を学習しています。サプリメント管理士は健康や美容に関すること、さらに介護福祉・薬店などで活躍し、その知識を活かしています。弊社オペレーターは、このサプリメント管理士の資格を有しています。</p>"
           }
         }
       },
@@ -108,7 +117,7 @@
         "heading_fVqr6K": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>ご相談・お問い合わせは「サプリメント管理士資格」を有したオペレーターがご対応いたします。<\/strong>",
+            "heading": "<strong>ご相談・お問い合わせは「サプリメント管理士資格」を有したオペレーターがご対応いたします。</strong>",
             "heading_size": "h2"
           }
         },
@@ -123,7 +132,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "お問い合わせはこちら",
-            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_link_1": "shopify://pages/contact",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -140,7 +149,7 @@
         "h2 {text-shadow: none; webkit-text-stroke: none; font-size: 3rem;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/29040090_m.jpg",
+        "image": "shopify://shop_images/29040090_m.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
@@ -210,6 +219,7 @@
         "quantity_selector_AQnFgC",
         "buy_buttons_t4HpJM"
       ],
+      "disabled": true,
       "settings": {
         "product": "食べる炭-ジンリバイブ",
         "color_scheme": "scheme-0973cc28-997b-42fa-83e3-492962bfb3e4",
@@ -247,8 +257,9 @@
         "heading_DA3Nk6",
         "text_THnKk6"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/29025963_m.jpg",
+        "image": "shopify://shop_images/29025963_m.jpg",
         "image_overlay_opacity": 60,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -317,6 +328,7 @@
         "buy_buttons_y9iNmM",
         "share_RCHLdb"
       ],
+      "disabled": true,
       "settings": {
         "product": "チエニーエキス粒-瑞生",
         "color_scheme": "scheme-ee76aa2a-af47-4179-96c2-bf765f931603",
@@ -338,10 +350,10 @@
         "row_N4aB8X": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/29564475_m.jpg",
+            "image": "shopify://shop_images/29564475_m.jpg",
             "caption": "live in good health",
-            "heading": "<strong>100 年時代を生き抜く<\/strong>",
-            "text": "<p>人はどうして健康でいたいのでしょうか？<br\/>その答えは「人は健康で幸せな人生を送るためにこの世に生まれてきた」ということだと思います。<br\/>家族全員が健康であれば、そこには必ず温かい笑顔が生まれます。<\/p>",
+            "heading": "<strong>100 年時代を生き抜く</strong>",
+            "text": "<p>人はどうして健康でいたいのでしょうか？<br/>その答えは「人は健康で幸せな人生を送るためにこの世に生まれてきた」ということだと思います。<br/>家族全員が健康であれば、そこには必ず温かい笑顔が生まれます。</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -349,10 +361,10 @@
         "row_AxCVPM": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/29051088_m.jpg",
+            "image": "shopify://shop_images/29051088_m.jpg",
             "caption": "Your health is in your own control",
-            "heading": "<strong>健康は自分自身でコントロールする<\/strong>",
-            "text": "<p>自身の健康をきちんと管理して生活することは容易ではありません。時にはコントロールすることに疲れ、逆にストレスとなり健康を害することもあります。<\/p><p>毎日気軽に取り入れられるもの、それが弊社の健康食品です。<\/p>",
+            "heading": "<strong>健康は自分自身でコントロールする</strong>",
+            "text": "<p>自身の健康をきちんと管理して生活することは容易ではありません。時にはコントロールすることに疲れ、逆にストレスとなり健康を害することもあります。</p><p>毎日気軽に取り入れられるもの、それが弊社の健康食品です。</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -362,6 +374,7 @@
         "row_N4aB8X",
         "row_AxCVPM"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
