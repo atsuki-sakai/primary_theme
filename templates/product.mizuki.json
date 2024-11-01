@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_WDhdwR": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.tags contains '定期購入' %}\n                <span class=\"badge\">定期購入</span>\n              {% endif %}"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -81,6 +87,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_WDhdwR",
         "vendor",
         "title",
         "price",
