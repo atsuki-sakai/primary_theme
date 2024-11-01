@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/logo-primary.png",
+    "logo": "shopify://shop_images/logo-primary.png",
     "logo_width": 160,
-    "favicon": "shopify:\/\/shop_images\/logo.png",
+    "favicon": "shopify://shop_images/logo.png",
     "type_header_font": "zen_kaku_gothic_new_n4",
     "heading_scale": 115,
     "type_body_font": "zen_kaku_gothic_new_n4",
@@ -99,8 +108,8 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
-    "brand_description": "<p>皆様の健康をサポートする健康補助食品を販売しております。健康食品を通して皆様にできること、「人と健康を」テーマに、あらゆる面からトータルプロデュースします。<\/p>",
-    "brand_image": "shopify:\/\/shop_images\/logo-primary.png",
+    "brand_description": "<p>皆様の健康をサポートする健康補助食品を販売しております。健康食品を通して皆様にできること、「人と健康を」テーマに、あらゆる面からトータルプロデュースします。</p>",
+    "brand_image": "shopify://shop_images/logo-primary.png",
     "brand_image_width": 130,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -138,20 +147,8 @@
 
     ],
     "blocks": {
-      "4935202709820522637": {
-        "type": "shopify:\/\/apps\/trustshop-product-reviews\/blocks\/review-embed\/18b0c4cc-5411-4b6e-922d-34fdc2f30ab9",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "16708967755049394968": {
-        "type": "shopify:\/\/apps\/ship-co\/blocks\/delivery-selector-app-embed\/540824e2-2138-4dc6-9757-56670db20341",
+        "type": "shopify://apps/ship-co/blocks/delivery-selector-app-embed/540824e2-2138-4dc6-9757-56670db20341",
         "disabled": true,
         "settings": {
           "custom_text": "",
@@ -181,8 +178,8 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#000000",
-          "button": "#ffffff",
-          "button_label": "#121212",
+          "button": "#000000",
+          "button_label": "#ffffff",
           "secondary_button_label": "#242833",
           "shadow": "#121212"
         }
@@ -444,7 +441,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
