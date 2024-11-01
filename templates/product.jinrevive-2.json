@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_dey7MK": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.tags contains '定期購入' %}\n                <span class=\"badge\">定期購入</span>\n              {% endif %}"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -78,15 +84,10 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "custom_liquid_dey7MK": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.tags contains '定期購入' %}\n                <span class=\"badge\">定期購入</span>\n              {% endif %}"
-          }
         }
       },
       "block_order": [
+        "custom_liquid_dey7MK",
         "vendor",
         "title",
         "price",
@@ -97,8 +98,7 @@
         "go_sub_subscription_gosub_product_block_LNzEcw",
         "buy_buttons",
         "shipping_info_EtPAdi",
-        "share",
-        "custom_liquid_dey7MK"
+        "share"
       ],
       "custom_css": [
         ".product__title h1 {font-weight: bold; font-size: 2rem;}",
