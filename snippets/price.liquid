@@ -68,7 +68,7 @@
                 {% else %}
                   {{ compare_at_price | money }}
                 {% endif %}
-              </s>
+              </s>d
             </span>
           {%- endunless -%}
         {%- endif -%}
@@ -83,6 +83,7 @@
         </span>
       {%- endif -%}
     </div>
+    <p style="font-size: 14px; text-decoration: underline;">{{ product_volume }}</p>
     <div class="price__sale">
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>

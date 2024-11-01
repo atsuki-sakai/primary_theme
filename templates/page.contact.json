@@ -44,35 +44,12 @@
         "show_text_below": false
       }
     },
-    "rich_text_ha3bC7": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_6nhzL4": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>フリーダイヤルはこちら<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "heading_REU8px": {
-          "type": "heading",
-          "settings": {
-            "heading": "<a href=\"tel:0120075074\"><strong>0120-075-074<\/strong><\/a>",
-            "heading_size": "h0"
-          }
-        }
-      },
-      "block_order": [
-        "heading_6nhzL4",
-        "heading_REU8px"
-      ],
+    "fax_form_yxccNM": {
+      "type": "fax-form",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "color_scheme": "scheme-ee76aa2a-af47-4179-96c2-bf765f931603",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "original_form_qVtaqg": {
@@ -132,7 +109,7 @@
         "form-desc": "お問い合わせから、1~2営業日以内にご返信させて頂きます。",
         "required-text": "必須",
         "heading_size": "h1",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-ee76aa2a-af47-4179-96c2-bf765f931603",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -141,7 +118,7 @@
   "order": [
     "main",
     "image_banner_qQCgtj",
-    "rich_text_ha3bC7",
+    "fax_form_yxccNM",
     "original_form_qVtaqg"
   ]
 }

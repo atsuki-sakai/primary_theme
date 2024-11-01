@@ -2,13 +2,129 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_LjVMRB": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_iCG8me": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>チエニーの特徴<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_XngXrX": {
+          "type": "text",
+          "settings": {
+            "text": "FEATURE",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iCG8me",
+        "text_XngXrX"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hiking-though-giants.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_with_text_hFaMtN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EhTmPx": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>強い生命力<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_xYcFhM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>高緯度地方や高山には森林限界線というものがあり、その過酷な環境ゆえ樹木が生育できず、森林を形成することができません。樹木が育つには適度な気温、湿度、水分や日光が必要ですが、この条件が欠けてしまうと樹木は育ちません。<br\/>森林限界線は海抜2,500メートルくらいと言われていますが、チエニーが自生している高山は海抜3,300～4,100メートルです。<br\/>限界線をはるかに超えた環境で成長し続け、高さや幹周囲ともに巨木となる樹木はそれだけでも驚異です。<br\/>しかも酸素が薄く、低温で、紫外線も強い厳しい環境に耐え、生きる術を身に付けたチエニーは、豊富な栄養素を蓄えた生命力が強い樹木といえましょう。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EhTmPx",
+        "text_xYcFhM"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hakuto6.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-ee76aa2a-af47-4179-96c2-bf765f931603",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_ALHe7N": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dbDyxt": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>多くの抗酸化物質<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_XaBVHw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>高山では紫外線を大量に浴びます。<br\/>紫外線は活性酸素を発生させる元凶のひとつです。<br\/>チエニーには多くのナチュラルな抗酸化物質が含まれています。チエニーはこれらの抗酸化物質を生産することで、自らを守ってきたのです。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dbDyxt",
+        "text_XaBVHw"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hakuto2.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-ee76aa2a-af47-4179-96c2-bf765f931603",
+        "color_scheme": "scheme-ee76aa2a-af47-4179-96c2-bf765f931603",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_LjVMRB",
+    "image_with_text_hFaMtN",
+    "image_with_text_ALHe7N"
   ]
 }

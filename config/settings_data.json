@@ -4,9 +4,9 @@
     "logo_width": 160,
     "favicon": "shopify:\/\/shop_images\/logo.png",
     "type_header_font": "zen_kaku_gothic_new_n4",
-    "heading_scale": 135,
+    "heading_scale": 115,
     "type_body_font": "zen_kaku_gothic_new_n4",
-    "body_scale": 115,
+    "body_scale": 105,
     "page_width": 1200,
     "spacing_sections": 20,
     "spacing_grid_horizontal": 24,
@@ -98,10 +98,10 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
-    "brand_headline": "株式会社 プライマリ",
+    "brand_headline": "",
     "brand_description": "<p>皆様の健康をサポートする健康補助食品を販売しております。健康食品を通して皆様にできること、「人と健康を」テーマに、あらゆる面からトータルプロデュースします。<\/p>",
     "brand_image": "shopify:\/\/shop_images\/logo-primary.png",
-    "brand_image_width": 100,
+    "brand_image_width": 130,
     "social_facebook_link": "",
     "social_instagram_link": "",
     "social_youtube_link": "",
@@ -179,8 +179,8 @@
       "scheme-1": {
         "settings": {
           "background": "#ffffff",
-          "background_gradient": "linear-gradient(57deg, rgba(231, 255, 224, 0.3) 8%, rgba(236, 251, 230, 0.3) 28%, rgba(148, 245, 131, 0.19) 83%)",
-          "text": "#2a862d",
+          "background_gradient": "",
+          "text": "#000000",
           "button": "#ffffff",
           "button_label": "#121212",
           "secondary_button_label": "#242833",
@@ -200,7 +200,7 @@
       },
       "scheme-3": {
         "settings": {
-          "background": "#242833",
+          "background": "#000000",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
@@ -272,6 +272,17 @@
           "button": "#29802c",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-0017226b-af94-4187-8220-babd0446191a": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "linear-gradient(54deg, rgba(119, 210, 107, 0.44) 14%, rgba(101, 244, 82, 0.54) 85%)",
+          "text": "#353535",
+          "button": "#ffffff",
+          "button_label": "#121212",
+          "secondary_button_label": "#242833",
           "shadow": "#121212"
         }
       }

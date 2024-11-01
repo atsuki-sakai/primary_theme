@@ -33,7 +33,7 @@
         "desktop_content_position": "bottom-right",
         "show_text_box": false,
         "desktop_content_alignment": "right",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-a8f7e01b-8492-4f6d-8887-e1386aa041e4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -48,7 +48,7 @@
       ],
       "settings": {
         "title": "製品紹介",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "subtitle",
@@ -59,7 +59,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-ee76aa2a-af47-4179-96c2-bf765f931603",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -108,7 +108,7 @@
         "heading_fVqr6K": {
           "type": "heading",
           "settings": {
-            "heading": "ご相談・お問い合わせは「サプリメント管理士資格」を有したオペレーターがご対応いたします。",
+            "heading": "<strong>ご相談・お問い合わせは「サプリメント管理士資格」を有したオペレーターがご対応いたします。<\/strong>",
             "heading_size": "h2"
           }
         },
@@ -146,11 +146,190 @@
         "desktop_content_position": "middle-left",
         "show_text_box": true,
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-a50ffc48-89c2-470f-813e-27f077ac4d5e",
+        "color_scheme": "scheme-a8f7e01b-8492-4f6d-8887-e1386aa041e4",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "fax_form_WBnnzL": {
+      "type": "fax-form",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_nzzK6f": {
+      "type": "featured-product",
+      "blocks": {
+        "text_wWKExP": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_7HHtdc": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_FzQjCY": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_yciiEU": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_AQnFgC": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_t4HpJM": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "text_wWKExP",
+        "title_7HHtdc",
+        "price_FzQjCY",
+        "variant_picker_yciiEU",
+        "quantity_selector_AQnFgC",
+        "buy_buttons_t4HpJM"
+      ],
+      "settings": {
+        "product": "食べる炭-ジンリバイブ",
+        "color_scheme": "scheme-0973cc28-997b-42fa-83e3-492962bfb3e4",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_XxLDTb": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_DA3Nk6": {
+          "type": "heading",
+          "settings": {
+            "heading": "身体を守るのは、あなた自身。",
+            "heading_size": "h1"
+          }
+        },
+        "text_THnKk6": {
+          "type": "text",
+          "settings": {
+            "text": "医療だけに頼らない生活、あふれる健康食品の中で価値のあるもの、\nどちらも満たすことを目指し、私どもの商品が開発されました。\n「プライマリ」には、最初の、第一の、主要な、という意味があります。\n社名に込めた思いのとおり、「一番最初に選んで頂ける」商品づくりを意識し、\n高品質を追求した商品やサービスで、お客様の明るく豊かな明日のためのお手伝いができればと思います。\nそして、それが長寿社会の健康の礎になり、健やかな人生の新たな出発点になるなら、\n私どももこれ以上の幸せはありません。",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DA3Nk6",
+        "text_THnKk6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/29025963_m.jpg",
+        "image_overlay_opacity": 60,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-a50ffc48-89c2-470f-813e-27f077ac4d5e",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_product_EWrYGh": {
+      "type": "featured-product",
+      "blocks": {
+        "text_rjqNjr": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_LAPnhj": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_EHLmrK": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_4V66qm": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_gtjThy": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_y9iNmM": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_RCHLdb": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_rjqNjr",
+        "title_LAPnhj",
+        "price_EHLmrK",
+        "variant_picker_4V66qm",
+        "quantity_selector_gtjThy",
+        "buy_buttons_y9iNmM",
+        "share_RCHLdb"
+      ],
+      "settings": {
+        "product": "チエニーエキス粒-瑞生",
+        "color_scheme": "scheme-ee76aa2a-af47-4179-96c2-bf765f931603",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multirow_NGkAAR": {
@@ -198,11 +377,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "call_banner_qWRgjP": {
-      "type": "call-banner",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -210,7 +384,10 @@
     "featured_collection",
     "rich_text_cEBtDd",
     "image_banner_JLPtfE",
-    "multirow_NGkAAR",
-    "call_banner_qWRgjP"
+    "fax_form_WBnnzL",
+    "featured_product_nzzK6f",
+    "image_banner_XxLDTb",
+    "featured_product_EWrYGh",
+    "multirow_NGkAAR"
   ]
 }

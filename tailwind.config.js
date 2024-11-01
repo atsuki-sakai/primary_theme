@@ -7,7 +7,11 @@ module.exports = {
     './snippets/*.liquid',
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        md: '990px'
+      },
+    },
   },
   plugins: [],
 }

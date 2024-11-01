@@ -24,6 +24,12 @@
         "price": {
           "type": "price",
           "settings": {
+            "product-volume": "{{ product.metafields.custom[\"_product-volume\"].value }}"
+          }
+        },
+        "weight_7jc4r3": {
+          "type": "weight",
+          "settings": {
           }
         },
         "inventory_GkHwPM": {
@@ -58,8 +64,8 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
+        "shipping_info_EtPAdi": {
+          "type": "shipping-info",
           "settings": {
           }
         },
@@ -75,12 +81,13 @@
         "title",
         "trustshop_product_reviews_widget_product_rating_x4Lp9f",
         "price",
+        "weight_7jc4r3",
         "inventory_GkHwPM",
         "variant_picker",
         "quantity_selector",
         "go_sub_subscription_gosub_product_block_LNzEcw",
         "buy_buttons",
-        "description",
+        "shipping_info_EtPAdi",
         "share"
       ],
       "custom_css": [
