@@ -123,6 +123,10 @@
               </a>
             </h3>
           </div>
+          {% if product.tags contains "定期購入" %}
+  <span class="badge">定期購入</span>
+{% endif %}
+
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
               <span
