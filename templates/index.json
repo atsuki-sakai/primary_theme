@@ -102,6 +102,7 @@
         "heading_WGLRV6",
         "text_YUJimX"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
@@ -145,6 +146,7 @@
         "text_xbdFwC",
         "buttons_pdBYdq"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {text-shadow: none; webkit-text-stroke: none; font-size: 3rem;}"
       ],
