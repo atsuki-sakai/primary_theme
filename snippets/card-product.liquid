@@ -125,7 +125,17 @@
 
           <div class="card__badge {{ settings.badge_position }}">
             {% if card_product.tags contains '定期購入' %}
-              <span class="badge">定期購入</span>
+              <span
+                class="badge"
+                style="
+                  background: white;
+                  border: 1px solid darkgreen;
+                  color: darkgreen;
+                  letter-spacing: 2px;
+                  font-size: 17px;
+                "
+                >定期購入</span
+              >
             {% endif %}
             {%- if card_product.available == false -%}
               <span
