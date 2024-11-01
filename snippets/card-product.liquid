@@ -104,10 +104,10 @@
             </div>
           </div>
         {%- endif -%}
-        {% if card_product.tags contains '定期購入' %}
-          <span class="badge">定期購入</span>
-        {% endif %}
         <div class="card__content">
+          {% if card_product.tags contains '定期購入' %}
+            <span class="badge">定期購入</span>
+          {% endif %}
           <div class="card__information">
             <h3
               class="card__heading"
