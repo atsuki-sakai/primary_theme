@@ -113,6 +113,9 @@
                 id="title-{{ section_id }}-{{ card_product.id }}"
               {% endif %}
             >
+              {% if product.tags contains '定期購入' %}
+                <span class="badge">定期購入</span>
+              {% endif %}
               <a
                 href="{{ card_product.url }}"
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
@@ -123,9 +126,6 @@
               </a>
             </h3>
           </div>
-          {% if product.tags contains '定期購入' %}
-            <span class="badge">定期購入</span>
-          {% endif %}
 
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
