@@ -673,7 +673,7 @@
 
       } else if (selectedMethod === 'credit' || selectedMethod === 'bank') {
         // 最小日付は注文日から3営業日後
-        minDate = addBusinessDays(now, {{ section.settings.max_shipping_days }});
+        minDate = addBusinessDays(now, {{ section.settings.min_shipping_days }});
         // 営業日まで調整（既に調整済み）
         while (!isBusinessDay(minDate)) {
           minDate = addBusinessDays(minDate, 1);
@@ -756,6 +756,16 @@
       "id": "max_shipping_days",
       "label": "最大配送指定日数",
       "default": 30,
+      "min": 2,
+      "unit": "日",
+      "max": 60,
+      "step": 2
+    },
+    {
+      "type": "range",
+      "id": "min_shipping_days",
+      "label": "配送までの営業日数",
+      "default": 3,
       "min": 2,
       "unit": "日",
       "max": 60,
