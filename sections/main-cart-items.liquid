@@ -572,11 +572,12 @@
       value="{{ cart.attributes["shipandco-配達希望時間帯"]  }}"
     >
       <option value="">時間を選択してください</option>
-      <option value="午前中">午前中</option>
-      <option value="14時～16時">14時～16時</option>
-      <option value="16時～18時">16時～18時</option>
-      <option value="18時～20時">18時～20時</option>
-      <option value="19時～21時">19時～21時</option>
+      <option value="10-12">10時～12時</option>
+      <option value="12-14">12時～14時</option>
+      <option value="14-16">14時～16時</option>
+      <option value="16-18">16時～18時</option>
+      <option value="18-20">18時～20時</option>
+      <option value="19-21">19時～21時</option>
     </select>
   </div>
 </div>
@@ -590,26 +591,9 @@
     const deliveryDateContainer = document.getElementById('delivery-date-container');
     const deliveryTimeSelect = document.getElementById('delivery-time');
 
-    // 日本の祝日リスト（2024年）
-    const holidays = [
-      '2024-01-01', // 元日
-      '2024-01-08', // 成人の日
-      '2024-02-11', // 建国記念の日
-      '2024-03-20', // 春分の日
-      '2024-04-29', // 昭和の日
-      '2024-05-03', // 憲法記念日
-      '2024-05-04', // みどりの日
-      '2024-05-05', // こどもの日
-      '2024-07-15', // 海の日
-      '2024-08-11', // 山の日
-      '2024-09-16', // 敬老の日
-      '2024-09-22', // 秋分の日
-      '2024-10-14', // 体育の日
-      '2024-11-03', // 文化の日
-      '2024-11-23', // 勤労感謝の日
-      // 必要に応じて追加
-    ];
-
+    // 祝日リストを改行区切りから配列に変換
+    const holidays = {{ section.settings.holidays | json }}.split('\n');
+    
     // 日本時間の現在日時を取得
     function getJSTDate() {
       const nowUTC = new Date();
@@ -685,18 +669,18 @@
         }
 
         // 最大日付は最小日付から3営業日後
-        maxDate = addBusinessDays(minDate, 5); // minDate + 3営業日 - 1
+        maxDate = addBusinessDays(minDate, {{ section.settings.max_shipping_days }}); // minDate + 3営業日 - 1
 
       } else if (selectedMethod === 'credit' || selectedMethod === 'bank') {
         // 最小日付は注文日から3営業日後
-        minDate = addBusinessDays(now, 3);
+        minDate = addBusinessDays(now, {{ section.settings.max_shipping_days }});
         // 営業日まで調整（既に調整済み）
         while (!isBusinessDay(minDate)) {
           minDate = addBusinessDays(minDate, 1);
         }
 
         // 最大日付は最小日付から3営業日後
-        maxDate = addBusinessDays(minDate, 2); // minDate + 3営業日 - 1
+        maxDate = addBusinessDays(minDate, {{ section.settings.max_shipping_days }}); // minDate + 3営業日 - 1
       }
 
       // 配送日入力フィールドのminとmaxを設定
@@ -767,6 +751,23 @@
 {
   "name": "t:sections.main-cart-items.name",
   "settings": [
+    {
+      "type": "range",
+      "id": "max_shipping_days",
+      "label": "最大配送指定日数",
+      "default": 30,
+      "min": 2,
+      "unit": "日",
+      "max": 60,
+      "step": 2
+    },
+    {
+      "type": "textarea",
+      "id": "holidays",
+      "label": "祝日",
+      "info": "祝日を改行区切りで入力してください。",
+      "default": "2024-01-01\n2024-01-08\n2024-02-11\n2024-03-20\n2024-04-29\n2024-05-03\n2024-05-05\n2024-07-15\n2024-08-11\n2024-09-16\n2024-09-22\n2024-10-14\n2024-11-03\n2024-11-23\n"
+    },
     {
       "type": "color_scheme",
       "id": "color_scheme",
