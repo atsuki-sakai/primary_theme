@@ -15,7 +15,7 @@
         "custom_liquid_WDhdwR": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.tags contains '定期購入' %}\n                <span class=\"badge\">定期購入</span>\n              {% endif %}"
+            "custom_liquid": "{% if product.tags contains '定期購入' %}\n                <span class=\"badge\" style=\"background: white;\n    border: 1px solid darkgreen;\n    color: darkgreen;\n    letter-spacing: 2px;\n    font-size: 17px;\">定期購入</span>\n              {% endif %}"
           }
         },
         "vendor": {
