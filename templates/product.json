@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -15,12 +24,6 @@
           "settings": {
           }
         },
-        "trustshop_product_reviews_widget_product_rating_x4Lp9f": {
-          "type": "shopify:\/\/apps\/trustshop-reviews\/blocks\/widget-product-rating\/18b0c4cc-5411-4b6e-922d-34fdc2f30ab9",
-          "settings": {
-            "selected_product": ""
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -29,6 +32,7 @@
         },
         "weight_7jc4r3": {
           "type": "weight",
+          "disabled": true,
           "settings": {
           }
         },
@@ -53,7 +57,7 @@
           }
         },
         "go_sub_subscription_gosub_product_block_LNzEcw": {
-          "type": "shopify:\/\/apps\/go-sub-subscription\/blocks\/gosub-product-block\/87efaa1b-acee-458e-9de2-d43423c133fa",
+          "type": "shopify://apps/go-sub-subscription/blocks/gosub-product-block/87efaa1b-acee-458e-9de2-d43423c133fa",
           "settings": {
           }
         },
@@ -79,7 +83,6 @@
       "block_order": [
         "vendor",
         "title",
-        "trustshop_product_reviews_widget_product_rating_x4Lp9f",
         "price",
         "weight_7jc4r3",
         "inventory_GkHwPM",
@@ -113,18 +116,6 @@
     },
     "1719554026ae037d37": {
       "type": "apps",
-      "blocks": {
-        "trustshop_product_reviews_widget_box_wDGqMe": {
-          "type": "shopify:\/\/apps\/trustshop-reviews\/blocks\/widget-box\/18b0c4cc-5411-4b6e-922d-34fdc2f30ab9",
-          "settings": {
-            "selected_product": "",
-            "wrapper_class": ""
-          }
-        }
-      },
-      "block_order": [
-        "trustshop_product_reviews_widget_box_wDGqMe"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -132,7 +123,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "<strong>関連する商品<\/strong>",
+        "heading": "<strong>関連する商品</strong>",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
