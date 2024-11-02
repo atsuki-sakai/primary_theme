@@ -131,7 +131,7 @@
                           <span class="cart-item__old-price product-option">
                             {{- item.original_price | money -}}
                           </span>
-                          
+
                           <span class="visually-hidden">
                             {{ 'products.product.price.sale_price' | t }}
                           </span>
@@ -418,7 +418,7 @@
                             <dd>
                               <span class="cart-item__old-price price price--end">
                                 {{ item.original_line_price | money }}
-                              </span> 
+                              </span>
                             </dd>
                             <dt class="visually-hidden">
                               {{ 'products.product.price.sale_price' | t }}
@@ -471,12 +471,11 @@
   </div>
 </cart-items>
 
-
-{%  unless cart.items.size == 0 %}
+{% unless cart.items.size == 0 %}
   <style>
     /* 既存のスタイルはそのまま使用 */
     .payment-method-container {
-     
+
       display: flex;
       flex-direction: column;
       gap: 0.8rem;
@@ -541,34 +540,34 @@
   <div class="payment-method-container tw-p-4 md:tw-max-w-4xl tw-mx-auto">
     <p class="payment-method-description">
       <strong>決済方法に応じた配送指定日を選択してください</strong>
-      <br/>
-      代引き・クレジットカード決済については翌日移行指定可能です。銀行振込の場合は振込確認後に発送いたします。ご指定日を指定されない場合は最短でお届け。
+      <br>
+      代引き・クレジットカード決済については翌日以降指定可能です。銀行振込の場合は振込確認後に発送いたします。ご指定日を指定されない場合は最短でお届け。
     </p>
     <div class="payment-method-buttons">
       <button id="cod-payment-button" class="payment-method-button active">代金引換</button>
       <button id="credit-payment-button" class="payment-method-button">クレジットカード決済</button>
       <button id="bank-payment-button" class="payment-method-button">銀行振込</button>
     </div>
-    
+
     <!-- 配送指定日 -->
     <div class="shipping-container" id="delivery-date-container">
       <label for="delivery-date">配送指定日（代金引換）</label>
-      <input 
-        form="cart" 
-        id="delivery-date" 
-        type="date" 
-        name="attributes[shipandco-配達希望日]" 
+      <input
+        form="cart"
+        id="delivery-date"
+        type="date"
+        name="attributes[shipandco-配達希望日]"
         value="{{ cart.attributes["shipandco-配達希望日"] }}"
       >
     </div>
-    
+
     <!-- 配送時間 -->
     <div class="shipping-container" id="delivery-time-container">
       <label for="delivery-time">配送時間</label>
-      <select 
-        form="cart" 
-        class="required" 
-        id="delivery-time" 
+      <select
+        form="cart"
+        class="required"
+        id="delivery-time"
         name="attributes[shipandco-配達希望時間帯]"
         value="{{ cart.attributes["shipandco-配達希望時間帯"]  }}"
       >
@@ -746,7 +745,6 @@
     });
   </script>
 {% endunless %}
-
 
 {% schema %}
 {
