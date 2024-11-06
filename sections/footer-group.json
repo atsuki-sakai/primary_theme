@@ -34,7 +34,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-0017226b-af94-4187-8220-babd0446191a",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "会員限定のお得な情報を受け取る。",
         "enable_follow_on_shop": false,
         "show_social": true,
