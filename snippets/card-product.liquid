@@ -57,6 +57,19 @@
       >
         {%- if card_product.featured_media -%}
           <div class="card__media{% if image_shape and image_shape != 'default' %} shape--{{ image_shape }} color-{{ settings.card_color_scheme }} gradient{% endif %}">
+            {% if card_product.tags contains '定期購入' %}
+              <span
+                class="badge"
+                style="
+                  background: white;
+                  border: 1px solid darkgreen;
+                  color: darkgreen;
+                  letter-spacing: 2px;
+                  font-size: 17px;
+                "
+                >定期購入</span
+              >
+            {% endif %}
             <div class="media media--transparent media--hover-effect">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
@@ -142,19 +155,6 @@
           </div>
         </div>
       </div>
-      {% if card_product.tags contains '定期購入' %}
-        <span
-          class="badge"
-          style="
-            background: white;
-            border: 1px solid darkgreen;
-            color: darkgreen;
-            letter-spacing: 2px;
-            font-size: 17px;
-          "
-          >定期購入</span
-        >
-      {% endif %}
       <div class="card__content">
         <div class="card__information">
           <h3
