@@ -124,19 +124,6 @@
           </div>
 
           <div class="card__badge {{ settings.badge_position }}">
-            {% if card_product.tags contains '定期購入' %}
-              <span
-                class="badge"
-                style="
-                  background: white;
-                  border: 1px solid darkgreen;
-                  color: darkgreen;
-                  letter-spacing: 2px;
-                  font-size: 17px;
-                "
-                >定期購入</span
-              >
-            {% endif %}
             {%- if card_product.available == false -%}
               <span
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
@@ -155,7 +142,19 @@
           </div>
         </div>
       </div>
-
+      {% if card_product.tags contains '定期購入' %}
+        <span
+          class="badge"
+          style="
+            background: white;
+            border: 1px solid darkgreen;
+            color: darkgreen;
+            letter-spacing: 2px;
+            font-size: 17px;
+          "
+          >定期購入</span
+        >
+      {% endif %}
       <div class="card__content">
         <div class="card__information">
           <h3
