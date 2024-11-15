@@ -190,8 +190,7 @@
         },
         "price_FzQjCY": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_yciiEU": {
           "type": "variant_picker",
@@ -202,8 +201,7 @@
         },
         "quantity_selector_AQnFgC": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_t4HpJM": {
           "type": "buy_buttons",
@@ -292,8 +290,7 @@
         },
         "price_EHLmrK": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_4V66qm": {
           "type": "variant_picker",
@@ -304,8 +301,7 @@
         },
         "quantity_selector_gtjThy": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_y9iNmM": {
           "type": "buy_buttons",
@@ -332,7 +328,7 @@
       ],
       "disabled": true,
       "settings": {
-        "product": "チエニーエキス粒-瑞生",
+        "product": "cheyeny-extract-cap-mizuki",
         "color_scheme": "scheme-ee76aa2a-af47-4179-96c2-bf765f931603",
         "secondary_background": false,
         "media_size": "medium",
