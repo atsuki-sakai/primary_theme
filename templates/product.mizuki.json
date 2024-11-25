@@ -12,12 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "custom_liquid_WDhdwR": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.tags contains '定期購入' %}\n                <span class=\"badge\" style=\"background: white;\n    border: 1px solid darkgreen;\n    color: darkgreen;\n    letter-spacing: 2px;\n    font-size: 17px;\">定期購入</span>\n              {% endif %}"
-          }
-        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -27,8 +21,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -39,8 +32,7 @@
         "weight_7jc4r3": {
           "type": "weight",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "inventory_GkHwPM": {
           "type": "inventory",
@@ -59,13 +51,11 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "go_sub_subscription_gosub_product_block_LNzEcw": {
           "type": "shopify://apps/go-sub-subscription/blocks/gosub-product-block/87efaa1b-acee-458e-9de2-d43423c133fa",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -76,8 +66,7 @@
         },
         "shipping_info_EtPAdi": {
           "type": "shipping-info",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -87,7 +76,6 @@
         }
       },
       "block_order": [
-        "custom_liquid_WDhdwR",
         "vendor",
         "title",
         "price",
